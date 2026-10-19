@@ -360,48 +360,112 @@
 // }
 
 
+// #include<iostream>
+// using namespace std;
+
+// class Character{
+
+// protected:
+
+// int health = 100;
+
+// public:
+
+// void TakeDamage(int damage){
+//     health = health - damage;
+// }
+// };
+
+// class Player : public Character{
+
+// int score = 0;
+
+// public:
+
+// void Addscore(int points){
+
+// score = score + points;
+
+// }
+
+// void showstatus(){
+
+// cout<<"health status: "<<health<<endl;
+// cout<<"score status: "<<score<<endl;
+// }
+
+// };
+
+// int main(){
+
+// Player P1;
+// P1.TakeDamage(25);
+// P1.Addscore(50);
+// P1.showstatus();
+
+
+//     return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// class Player{
+
+// int health = 100;
+
+// public:
+
+// void attack(int damage);
+// void takeDamage(int damage);
+// void showhealth();
+
+// };
+
+// void Player :: attack(int damage){
+
+//  health = health - damage;
+// }
+
+// void Player :: takeDamage(int damage){
+// health = health - damage;}
+
+
+// void Player :: showhealth(){
+
+//     cout<<"Current health status: "<<health<<endl;
+// }
+
+// int main(){
+
+// Player P1;
+
+// P1.attack(10);
+// P1.takeDamage(20);
+// P1.showhealth();
+// P1.attack(10);
+// P1.takeDamage(20);
+// P1.showhealth();
+
+
+//     return 0;
+// }
+
 #include<iostream>
 using namespace std;
 
-class Character{
+class{
 
-protected:
 
-int health = 100;
 
-public:
 
-void TakeDamage(int damage){
-    health = health - damage;
-}
+
+    
 };
 
-class Player : public Character{
-
-int score = 0;
-
-public:
-
-void Addscore(int points){
-
-score = score + points;
-
-}
-
-void showstatus(){
-
-cout<<"health status: "<<health<<endl;
-cout<<"score status: "<<score<<endl;
-}
-
-};
 
 int main(){
 
-Player P1;
-P1.TakeDamage(25);
-P1.Addscore(50);
-P1.showstatus();
 
 
     return 0;
