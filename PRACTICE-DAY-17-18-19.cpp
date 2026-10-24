@@ -451,22 +451,113 @@
 //     return 0;
 // }
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-class{
+// class Weapon{
 
+// int ammo = 10;
 
+// public:
 
-
-
+// void fire(int bullets);
+// void reload(int bullets);
+// void showammo();
     
-};
+// };
+
+// void Weapon :: fire(int bullets){
+
+//     ammo = ammo - bullets;
+// }
+
+// void Weapon :: reload(int bullets){
+
+//     ammo = ammo + bullets;
+// }
+
+// void Weapon :: showammo(){
+
+//     cout<<"Current Ammo of the gun: "<<ammo<<endl;
+// }
+
+// int main(){
+
+//  Weapon Desert;
+//  Desert.fire(3);
+//  Desert.reload(5);
+//  Desert.showammo();
+
+//  Desert.fire(5);
+//  Desert.reload(7);
+//  Desert.showammo();
+
+//  Desert.fire(6);
+//  Desert.reload(4);
+//  Desert.showammo();
+
+//     return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// class Car{
+
+// int speed = 0;
+// int maxSpeed = 150;
+
+// public:
+
+// void Accelerate(int amount);
+// void brake(int amount);
+// void showspeed();
+// };
+
+// void Car :: Accelerate(int amount){
+    
+//     speed = speed + amount;
+
+//     if(speed<maxSpeed){
+//      cout<<speed<<endl;
+//     }
+
+//     else if(speed>maxSpeed){
+//         cout<<"Can't cross 150 kmph speed: "<<endl;
+//     }
+    
+
+// }
+
+// void Car :: brake(int amount){
+
+//     speed = speed - amount;
+
+//     if(speed>0){
+//      cout<<speed<<endl;
+//     }
+
+//     else if(speed<0){
+//         cout<<"speed can't be negative: "<<endl;
+//     }
+
+// }
+
+// void Car :: showspeed(){
+
+//     cout<<"This is the current speed of the your Car: "<<speed<<endl;
+// }
+
+// int main(){
+
+//  Car Tiago;
+//  Tiago.Accelerate(100);
+//  Tiago.Accelerate(80);
+//  Tiago.brake(30);
+//  Tiago.showspeed();
 
 
-int main(){
 
 
-
-    return 0;
-}
+//     return 0;
+// }
