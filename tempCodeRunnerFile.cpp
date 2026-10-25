@@ -1,0 +1,1 @@
+P1.Takedamage(20);
